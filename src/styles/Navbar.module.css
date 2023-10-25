@@ -1,0 +1,83 @@
+/** @format */
+
+nav {
+  padding: 12px 24px;
+  border-bottom: 0.5px solid #3d3d3d;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .container .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--secondary-text-color);
+  font-family: var(--primary-font-family);
+  gap: 0.25rem;
+}
+
+nav .container .logo span {
+  line-height: var(--secondary-line-height);
+  font-style: normal;
+  font-weight: var(--secondary-font-weight);
+}
+
+nav .container .logobg {
+  padding: 0.3rem;
+  background: white;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav .container .pcNav {
+  display: none;
+}
+nav .container .pcNav ul li {
+  list-style: none;
+}
+
+nav .container .pcNav ul {
+  display: flex;
+  gap: 3.75rem;
+}
+
+nav .container .login {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+nav .container .login {
+  display: none;
+}
+
+nav .container .login button {
+  display: flex;
+  padding: 0.5rem 0.75rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 6.25rem;
+  background: #2b892e;
+  border: none;
+  outline: none;
+}
+
+@media (min-width: 1024px) {
+  nav .container .login {
+    display: flex;
+  }
+  nav .container .pcNav {
+    display: flex;
+  }
+
+  nav .container .hero {
+    display: none;
+  }
+}

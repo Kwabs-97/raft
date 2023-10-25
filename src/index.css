@@ -1,7 +1,7 @@
 /** @format */
 
 :root {
-  --primary-font: -apple-system, BlinkMacSystemFont, sans-serif;
+  --primary-font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   --primary-text-color: #989898;
   --primary-line-height: 24px;
   --primary-background-color: #070606;
@@ -12,4 +12,17 @@
   --secondary-font-weight: 400;
   --secondary-line-height: normal;
   --secondary-font-size: 32px;
+}
+
+body {
+  background-color: var(--primary-background-color);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-text-color);
+  font-size: 1rem;
 }

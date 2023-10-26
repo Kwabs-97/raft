@@ -27,12 +27,12 @@ header .frame1 .section1 {
   border: 0.2px solid #989898;
   background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(10px);
-  color: var(--primary-text-color);
-  font-size: 0.875rem;
 }
 
 header .frame1 .section1 p {
   margin: 0;
+  color: var(--primary-text-color);
+  font-size: 0.875rem;
 }
 
 header .frame1 .section2 {
@@ -84,4 +84,23 @@ header .frame2 button {
   font-style: var(--primary-font-style);
   font-size: var(--primary-font-size);
   line-height: var(--primary-line-height);
+}
+
+@media (min-width: 1024px) {
+  header .frame1 .section1 p {
+    font-size: 1rem;
+  }
+
+  header .frame1 .section2 {
+    gap: 1.5rem;
+  }
+
+  header .frame1 .section2 h4 {
+    font-size: 6rem;
+  }
+
+  header .frame1 .section2 p {
+    font-size: 1.5rem;
+    width: 41.75rem;
+  }
 }

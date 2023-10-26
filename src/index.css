@@ -3,22 +3,23 @@
 :root {
   --primary-font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   --primary-text-color: #989898;
-  --primary-line-height: 24px;
+  --primary-line-height: 1.5rem;
   --primary-background-color: #070606;
   --primary-font-weight: 400;
-  --primary-font-size: 16px;
+  --primary-font-size: 1rem;
+  --primary-font-style: normal;
 
   --secondary-text-color: #fff;
   --secondary-font-weight: 400;
   --secondary-line-height: normal;
-  --secondary-font-size: 32px;
+  --secondary-font-size: 2.5rem;
 }
-
 body {
   background-color: var(--primary-background-color);
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: var(--primary-font-family);
 }
 
 a {

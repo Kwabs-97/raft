@@ -1,0 +1,70 @@
+/** @format */
+
+header {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 5.5rem 1.5rem;
+}
+
+header .frame1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  align-self: stretch;
+}
+
+header .frame1 .section1 {
+  display: flex;
+  padding: 6px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 100px;
+  border: 0.2px solid #989898;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  color: var(--primary-text-color);
+  font-size: 0.875rem;
+}
+
+header .frame1 .section1 p {
+  margin: 0;
+}
+
+header .frame1 .section2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  align-self: stretch;
+}
+
+header .frame1 .section2 h4 {
+  color: var(--secondary-text-color);
+  font-size: var(--secondary-font-size);
+  line-height: var(--secondary-line-height);
+  font-weight: var(--secondary-font-weight);
+  text-align: center;
+  margin: 0;
+}
+
+header .frame1 .section2 p{
+  color: var(--primary-text-color);
+  font-size: var(--primary-font-size);
+  line-height: var(--primary-line-height);
+  font-weight: var(--primary-font-weight);
+  text-align: center;
+  margin: 0;
+}
+header .frame2 {
+  display: flex;
+  padding: 1rem 2rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}

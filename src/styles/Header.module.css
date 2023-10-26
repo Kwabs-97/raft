@@ -53,7 +53,7 @@ header .frame1 .section2 h4 {
   margin: 0;
 }
 
-header .frame1 .section2 p{
+header .frame1 .section2 p {
   color: var(--primary-text-color);
   font-size: var(--primary-font-size);
   line-height: var(--primary-line-height);
@@ -67,4 +67,21 @@ header .frame2 {
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
+}
+
+header .frame2 button {
+  display: flex;
+  padding: 1rem 2rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  outline: none;
+  border: none;
+  border-radius: 6.25rem;
+  background: #2b892e;
+  color: white;
+  font-weight: 400;
+  font-style: var(--primary-font-style);
+  font-size: var(--primary-font-size);
+  line-height: var(--primary-line-height);
 }

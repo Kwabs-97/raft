@@ -20,7 +20,9 @@ function Header() {
           </p>
         </section>
       </div>
-      <div className={styles.frame2}></div>
+      <div className={styles.frame2}>
+        <button>Get Started</button>
+      </div>
     </header>
   );
 }

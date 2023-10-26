@@ -16,3 +16,10 @@
   flex-shrink: 0;
   border-radius: 0.5rem;
 }
+
+@media (min-width: 1024px) {
+  .container .img img {
+    flex-shrink: 0;
+    border-radius: 0.75rem;
+  }
+}

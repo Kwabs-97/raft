@@ -33,3 +33,10 @@
     transform: translateX(-100%);
   }
 }
+
+@media(min-width:1024px){
+  .carouselContainer img{
+    max-width: 100vw;
+  }
+}
+

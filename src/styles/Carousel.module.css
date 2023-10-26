@@ -4,4 +4,32 @@
   display: flex;
   align-items: center;
   gap: 3.75rem;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+.scrollWrapper {
+  display: flex;
+  gap: 3.75rem;
+  white-space: nowrap;
+
+  animation: scroll 10s linear infinite;
+}
+
+.carouselContainer img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
 }

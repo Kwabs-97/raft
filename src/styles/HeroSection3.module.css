@@ -22,8 +22,8 @@
   font-size: var(--primary-font-size);
   color: var(--primary-text-color);
   font-style: var(--primary-font-style);
-text-align: justify;
-  width: 21.375rem;
+  text-align: center;
+  font-weight: var(--primary-font-weight);
 }
 @media (min-width: 1024px) {
   .container p {
@@ -40,6 +40,13 @@ text-align: justify;
   }
 
   .container h4 {
-    color: red;
+    font-size: 4.75rem;
+    line-height: normal;
+    text-align: center;
+    width: 70%;
+  }
+  .container p {
+    width: 48%;
+    line-height: 1.75rem;
   }
 }

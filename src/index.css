@@ -30,11 +30,11 @@ a {
 }
 
 h4 {
-  font-style: var(--primary-font-style);
-  color: var(--primary-text-color);
-  font-weight: var(--primary-font-weight);
-  font-size: var(--primary-font-size);
-  line-height: var(--primary-line-height);
+  font-style: var(--secondary-font-style);
+  color: var(--secondary-text-color);
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--secondary-font-size);
+  line-height: var(--secondary-line-height);
   font-family: var(--primary-font-family);
 }
 

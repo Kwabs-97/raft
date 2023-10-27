@@ -2,9 +2,9 @@
 
 import React from "react";
 import HeroSection1 from "../components/HeroSection1";
-import HeroSection4 from "../components/Containers";
 import Features from "../components/Features";
 import ElevateFinances from "../components/ElevateFinances";
+import FinancialFreedom from "../components/FinancialFreedom";
 
 function Main() {
   return (
@@ -12,7 +12,7 @@ function Main() {
       <HeroSection1 />
       <Features />
       <ElevateFinances />
-     
+      <FinancialFreedom />
     </main>
   );
 }

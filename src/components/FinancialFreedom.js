@@ -8,7 +8,7 @@ function FinancialFreedom() {
     <div className={styles.container} >
           <header>
               <h4>
-                  
+                  Your Financial Freedom, Your Way
               </h4>
       </header>
       <main></main>

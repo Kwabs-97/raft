@@ -1,9 +1,9 @@
 /** @format */
 
 import React from "react";
-import Container from "../components/UI/Container";
+import Container from "./UI/Container";
 import styles from "../styles/HeroSection4.module.css";
-function HeroSection4() {
+function Containers() {
   return (
     <>
       <>
@@ -77,10 +77,10 @@ function HeroSection4() {
               <p>Enjoy secure, seamless transactions that make managing your money a breeze.</p>
             </div>
           </div>
-        </Container>    
+        </Container>
       </>
     </>
   );
 }
 
-export default HeroSection4;
+export default Containers;

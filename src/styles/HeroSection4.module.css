@@ -1,31 +1,45 @@
 /** @format */
-
-
- img {
+.vector1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5.4rem;
+}
+.containerOne img {
   width: 18.375rem;
   height: 9.67969rem;
   flex-shrink: 0;
-  margin: 2.31rem 1.5rem;
 }
 
- .main {
+.main {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-
+  margin: 0 1.5rem 0 1.5rem;
 }
 
- .main h4 {
+.main h4 {
   margin: 0;
   color: var(--primary-text-color);
   font-size: 1.5rem;
 }
 
- .main p {
+.main p {
   margin: 0;
   color: var(--primary-text-color);
   font-weight: var(--primary-font-weight);
   font-style: normal;
   line-height: var(--primary-line-height);
 }
+.containerTwo .vector {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 5.4rem;
+}
 
+.containerTwo img {
+  width: 18.375rem;
+  height: 10.24325rem;
+  object-fit: contain;
+ 
+}

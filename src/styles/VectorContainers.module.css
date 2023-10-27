@@ -6,6 +6,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  z-index: 1;
 }
 .overlay {
   content: "";
@@ -14,5 +16,14 @@
   left: 0;
   width: 100%;
   height: 50%;
-  backdrop-filter: blur(.8px);
+  backdrop-filter: blur(0.8px);
+}
+
+.vectorContainer svg {
+  position: absolute;
+  top: -30%;
+  left: 0;
+  width: 37.5rem;
+  height: 24.55356rem;
+  z-index: -1;
 }

@@ -6,7 +6,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
   z-index: 1;
 }
 .overlay {
@@ -21,9 +20,10 @@
 
 .vectorContainer svg {
   position: absolute;
-  top: -30%;
-  left: 0;
+  top: 10%;
+  left: 50%;
   width: 37.5rem;
   height: 24.55356rem;
   z-index: -1;
+  transform: translate(-50%, -50%);
 }

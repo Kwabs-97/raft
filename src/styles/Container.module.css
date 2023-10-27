@@ -11,3 +11,9 @@
   padding: 1.5rem 0 1.5rem 0;
   overflow: hidden;
 }
+
+@media (min-width) {
+  .container {
+    margin: 4.5rem 1.5rem;
+  }
+}

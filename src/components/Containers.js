@@ -9,8 +9,8 @@ import financialSVG from "../assets/Vector/Group 8JJ 1.svg";
 function Containers() {
   return (
     <>
-      <>
-        <Container>
+      <div className={styles.payments}>
+        <Container className={styles.container1}>
           <div className={styles.containerOne}>
             <div className={styles.vector1}>
               <VectorContainers>
@@ -29,14 +29,14 @@ function Containers() {
           </div>
         </Container>
 
-        <Container>
+        <Container className={styles.container2}>
           <div className={styles.containerTwo}>
             <div className={styles.vector}>
               <VectorContainers>
                 <img
                   loading="lazy"
                   srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/e9061b40-b63d-4d81-b262-69e1d9728c2d?apiKey=0179e5cdf4434003ace2ef50a4f0813c&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/e9061b40-b63d-4d81-b262-69e1d9728c2d?apiKey=0179e5cdf4434003ace2ef50a4f0813c&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/e9061b40-b63d-4d81-b262-69e1d9728c2d?apiKey=0179e5cdf4434003ace2ef50a4f0813c&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/e9061b40-b63d-4d81-b262-69e1d9728c2d?apiKey=0179e5cdf4434003ace2ef50a4f0813c&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/e9061b40-b63d-4d81-b262-69e1d9728c2d?apiKey=0179e5cdf4434003ace2ef50a4f0813c&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/e9061b40-b63d-4d81-b262-69e1d9728c2d?apiKey=0179e5cdf4434003ace2ef50a4f0813c&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/e9061b40-b63d-4d81-b262-69e1d9728c2d?apiKey=0179e5cdf4434003ace2ef50a4f0813c&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/e9061b40-b63d-4d81-b262-69e1d9728c2d?apiKey=0179e5cdf4434003ace2ef50a4f0813c&"
-                  className="aspect-[1.79] object-cover object-center w-full overflow-hidden"
+                  className={styles.seamless}
                   alt="Description of the image"
                 />
               </VectorContainers>
@@ -48,14 +48,14 @@ function Containers() {
             </div>
           </div>
         </Container>
-      </>
+      </div>
 
-      <>
-        <Container>
+      <div className={styles.investments}>
+        <Container className={styles.container1}>
           <div className={styles.containerOne}>
             <div className={styles.vector1}>
               <VectorContainers>
-                <img loading="lazy" src={wadeSVG} />
+                <img loading="lazy" src={wadeSVG} className={styles.wealth} />
               </VectorContainers>
             </div>
 
@@ -69,7 +69,7 @@ function Containers() {
           </div>
         </Container>
 
-        <Container>
+        <Container className={styles.container2}>
           <div className={styles.containerTwo}>
             <div className={styles.vector}>
               <VectorContainers>
@@ -86,7 +86,7 @@ function Containers() {
             </div>
           </div>
         </Container>
-      </>
+      </div>
     </>
   );
 }

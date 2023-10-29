@@ -1,7 +1,7 @@
 /** @format */
 
 import React from "react";
-import styles from "../styles/HeroSection3.module.css";
+import styles from '../styles/ElevateFinances.'
 
 
 function ElevateFinances() {

@@ -52,7 +52,11 @@ function FinancialFreedom() {
           </p>
         </section>
       </footer>
-      <aside></aside>
+      <aside>
+        <article>
+          Smart investments, secure payments, and expert guidance, all in one place.
+        </article>
+      </aside>
     </div>
   );
 }

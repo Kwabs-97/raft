@@ -9,8 +9,8 @@ function FinancialFuture() {
       <div className={styles.heading}>
         <h4>Confidently Shape Your Financial Future</h4>
         <p>
-          display: flex; width: 21.375rem; flex-direction: column; align-items: flex-start; gap:
-          1.5rem;
+          At RAFT, we empower you to confidently shape your financial future.Our modern approach
+          simplifies saving and investing, making it easier than ever.
         </p>
       </div>
       <div className={styles.cards}></div>

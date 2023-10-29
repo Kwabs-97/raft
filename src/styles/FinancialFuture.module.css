@@ -49,3 +49,11 @@
 .container .numbers section p{
     font-size: 0.75rem;
 }
+
+.container .image{
+    margin: 3.75rem 0 6rem 0;
+}
+.container .image img{
+width: 100vw;
+}
+

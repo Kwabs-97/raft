@@ -39,7 +39,9 @@ function FinancialFuture() {
           <p>USER RATINGS</p>
         </section>
       </div>
-      <div className={styles.image}></div>
+          <div className={styles.image}>
+        <img src={img} alt="image" />
+      </div>
     </div>
   );
 }

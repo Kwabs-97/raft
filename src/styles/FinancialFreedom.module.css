@@ -9,7 +9,7 @@
 
 .container header {
   gap: 1.5rem;
-  margin: 0;
+  margin: 5rem 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23,6 +23,42 @@
   text-align: center;
 }
 
+.container main .desktopIMG {
+  display: none;
+}
+
+.container footer {
+  display: flex;
+  
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 3.5rem;
+}
+
+.container footer section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.625rem;
+  align-self: stretch;
+}
+
+.container footer section div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  align-self: stretch;
+}
+
+.container footer section div h5 {
+  color: var(--White, #fff);
+  margin: 0;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
 @media (min-width: 1024px) {
   .container header {
     width: 56rem;
@@ -34,5 +70,21 @@
   .container header p {
     width: 41.75rem;
     font-size: 1.25rem;
+  }
+
+  .container main .mobileIMG {
+    display: none;
+  }
+
+  .container main .desktopIMG {
+    display: block;
+  }
+
+  .container footer {
+    flex-direction: row;
+  }
+
+  .container footer p{
+    text-align: left;
   }
 }

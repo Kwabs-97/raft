@@ -2,17 +2,12 @@
 
 import styles from "../styles/ElevateFinances.module.css";
 
-//svgs for mobile design
-import seamlessSVG from "../assets/ElevateFinances SVGs/Frame 88.svg";
-import smartInvestingSVG from "../assets/ElevateFinances SVGs/Frame 1000001576.svg";
-import wealth from "../assets/ElevateFinances SVGs/Frame 1000001577.svg";
-import financialPlanning from "../assets/ElevateFinances SVGs/Frame 1000001578.svg";
-
-//svgs for laptop design
-import seamlessSVGLg from "../assets/ElevateFinances SVGs/Frame 88-lg.svg";
-import smartInvestingSVGLg from "../assets/ElevateFinances SVGs/Frame 32.svg";
-import wealthLg from "../assets/ElevateFinances SVGs/Frame 36.svg";
-import financialPlanningLg from "../assets/ElevateFinances SVGs/Frame 34.svg";
+//svgs for elevate Finances Container
+import seamlessPaymentSVG from "../assets/ElevateFinances SVGs/seamlessPayments.svg";
+import smartInvestingSVG from "../assets/ElevateFinances SVGs/smartInvestings.svg";
+import wealthManagementSVG from "../assets/ElevateFinances SVGs/wealthManagement.svg";
+import financialPlanningSVG from "../assets/ElevateFinances SVGs/financialPlanning.svg";
+import vectorBg from "../assets/ElevateFinances SVGs/Vector.svg";
 
 import { ReactSVG } from "react-svg";
 function ElevateFinances() {
@@ -28,12 +23,40 @@ function ElevateFinances() {
 
       <div className={styles.elevateFinancesContainer}>
         <section className={styles.smart}>
-          <div className={styles.seamlessPayments}></div>
-          <div className={styles.smartInvestings}></div>
+          <div className={styles.seamlessPayments}>
+            <div className={styles.vector}></div>
+            <ReactSVG src={seamlessPaymentSVG} />
+            <div>
+              <h4></h4>
+              <p></p>
+            </div>
+          </div>
+          <div className={styles.smartInvestings}>
+            <div></div>
+            <ReactSVG src={smartInvestingSVG} />
+            <div>
+              <h4></h4>
+              <p></p>
+            </div>
+          </div>
         </section>
         <section className={styles.finances}>
-          <div className={styles.wealthManagement}></div>
-          <div className={styles.financialPlanning}></div>
+          <div className={styles.wealthManagement}>
+            <div></div>
+            <ReactSVG />
+            <div>
+              <h4></h4>
+              <p></p>
+            </div>
+          </div>
+          <div className={styles.financialPlanning}>
+            <div></div>
+            <ReactSVG />
+            <div>
+              <h4></h4>
+              <p></p>
+            </div>
+          </div>
         </section>
       </div>
 

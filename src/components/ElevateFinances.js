@@ -26,17 +26,20 @@ function ElevateFinances() {
           <div className={styles.seamlessPayments}>
             <div className={styles.vector}></div>
             <ReactSVG src={seamlessPaymentSVG} />
-            <div>
-              <h4></h4>
-              <p></p>
+            <div className={styles.detail}>
+              <h4>Seamless Payments</h4>
+              <p>Enjoy secure, seamless transactions that make managing your money a breeze.</p>
             </div>
           </div>
-          <div className={styles.smartInvestings}>
+          <div className={`${styles.smartInvestings} ${styles.smartInvestingsExc}`}>
             <div></div>
-            <ReactSVG src={smartInvestingSVG} />
-            <div>
-              <h4></h4>
-              <p></p>
+            <ReactSVG src={smartInvestingSVG} style={{display: 'flex', justifyContent:'end'} }/>
+            <div className={styles.detail}>
+              <h4>Smart Investing</h4>
+              <p>
+                Grow your wealth confidently with our personalized investment solutions, tailored to
+                your financial goals.
+              </p>
             </div>
           </div>
         </section>
@@ -44,17 +47,23 @@ function ElevateFinances() {
           <div className={styles.wealthManagement}>
             <div></div>
             <ReactSVG src={wealthManagementSVG} />
-            <div>
-              <h4></h4>
-              <p></p>
+            <div className={styles.detail}>
+              <h4>Wealth Management</h4>
+              <p>
+                Make informed decisions for your financial future with our wealth management
+                expertise.
+              </p>
             </div>
           </div>
           <div className={styles.financialPlanning}>
             <div></div>
             <ReactSVG src={financialPlanningSVG} />
-            <div>
-              <h4></h4>
-              <p></p>
+            <div className={styles.detail}>
+              <h4>Financial Planning</h4>
+              <p>
+                Achieve your financial dreams with our comprehensive financial planning services,
+                guiding you toward a secure future.
+              </p>
             </div>
           </div>
         </section>

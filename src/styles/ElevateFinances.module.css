@@ -31,10 +31,25 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  gap: 2rem;
+}
+
+h4 {
+  color: var(--White, #fff);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.75rem; /* 116.667% */
+}
+p {
+  color: #bdbdbd;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem; /* 150% */
 }
 
 .elevateFinancesContainer .smart .seamlessPayments,
-.elevateFinancesContainer .smart .smartInvestings,
 .elevateFinancesContainer .finances .wealthManagement,
 .elevateFinancesContainer .finances .financialPlanning {
   border-radius: 0.5rem;
@@ -42,13 +57,38 @@
   background: #131313;
   overflow: hidden;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  /* padding: 1.5rem; */
+  margin: 1.5rem;
 }
 
-
-.elevateFinancesContainer .vector{
-  display: absolute;
-  
+.elevateFinancesContainer .smart .smartInvestingsExc {
+  border-radius: 0.5rem;
+  border: 1px solid var(--stroke, rgba(255, 255, 255, 0.04));
+  background: #131313;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  padding: 0;
+  margin: 1.5rem;
 }
+
+.elevateFinancesContainer .smart .smartInvestingsExc svg{
+align-self: flex-end;
+
+}
+
+.elevateFinancesContainer .detail {
+  padding: 1.5rem;
+}
+
 @media (min-width: 1024px) {
   .elevateFinancesContainer {
     flex-direction: row;

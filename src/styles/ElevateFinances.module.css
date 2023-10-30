@@ -18,6 +18,21 @@
   margin-bottom: 5rem;
 }
 
+.elevateFinancesContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+@media(min-width:1024px){
+  .elevateFinancesContainer{
+    flex-direction: row;
+  }
+}
+
+/* 
 .containerMobile {
   display: flex;
   flex-direction: column;
@@ -63,4 +78,4 @@
   .header p {
     width: 41.75rem;
   }
-}
+} */

@@ -26,8 +26,16 @@ function ElevateFinances() {
         </p>
       </div>
 
+      <div className={styles.elevateFinancesContainer}>
+        <section className={styles.smart}>
+          <div className={styles.seamlessPayments}></div>
+          <div className={styles.smartInvestings}></div>
+        </section>
+        <section className={styles.finances}></section>
+      </div>
+
       {/* container for mobile design*/}
-      <div className={styles.containerMobile}>
+      {/* <div className={styles.containerMobile}>
         <section className={styles.section1}>
           <ReactSVG src={seamlessSVG} className={styles.seamless} />
           <ReactSVG src={smartInvestingSVG} className={styles.smartInvestingSVG} />
@@ -36,10 +44,10 @@ function ElevateFinances() {
           <ReactSVG src={wealth} className={styles.wealth} />
           <ReactSVG src={financialPlanning} className={styles.financialPlanning} />
         </section>
-      </div>
+      </div> */}
 
       {/* container for desktop design */}
-      <div className={styles.containerDesktop}>
+      {/* <div className={styles.containerDesktop}>
         <section className={styles.section1}>
           <ReactSVG src={seamlessSVGLg} />
           <ReactSVG src={smartInvestingSVGLg} />
@@ -48,7 +56,7 @@ function ElevateFinances() {
           <ReactSVG src={wealthLg} />
           <ReactSVG src={financialPlanningLg} />
         </section>
-      </div>
+      </div> */}
     </div>
   );
 }

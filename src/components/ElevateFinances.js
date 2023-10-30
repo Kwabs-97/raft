@@ -31,7 +31,10 @@ function ElevateFinances() {
           <div className={styles.seamlessPayments}></div>
           <div className={styles.smartInvestings}></div>
         </section>
-        <section className={styles.finances}></section>
+        <section className={styles.finances}>
+          <div className={styles.wealthManagement}></div>
+          <div className={styles.financialPlanning}></div>
+        </section>
       </div>
 
       {/* container for mobile design*/}

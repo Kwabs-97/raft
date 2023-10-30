@@ -43,7 +43,7 @@ function ElevateFinances() {
         <section className={styles.finances}>
           <div className={styles.wealthManagement}>
             <div></div>
-            <ReactSVG />
+            <ReactSVG src={wealthManagementSVG} />
             <div>
               <h4></h4>
               <p></p>
@@ -51,7 +51,7 @@ function ElevateFinances() {
           </div>
           <div className={styles.financialPlanning}>
             <div></div>
-            <ReactSVG />
+            <ReactSVG src={financialPlanningSVG} />
             <div>
               <h4></h4>
               <p></p>

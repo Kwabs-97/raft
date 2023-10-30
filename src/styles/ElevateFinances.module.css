@@ -37,6 +37,10 @@
   .elevateFinancesContainer{
     flex-direction: row;
   }
+
+  .elevateFinancesContainer .smart{
+    flex-direction: row;
+  }
 }
 
 /* 

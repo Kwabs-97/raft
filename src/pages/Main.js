@@ -14,7 +14,7 @@ function Main() {
       <Features />
       <ElevateFinances />
       <FinancialFreedom />
-      <FinancialFuture />
+     
     </main>
   );
 }

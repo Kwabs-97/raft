@@ -47,6 +47,7 @@ p {
   margin: 0;
 }
 
+
 @media (min-width: 1024px) {
   h4 {
     color: var(--White, #fff);

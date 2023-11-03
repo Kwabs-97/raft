@@ -33,7 +33,7 @@ function ElevateFinances() {
           </div>
           <div className={`${styles.smartInvestings} ${styles.smartInvestingsExc}`}>
             <div></div>
-            <ReactSVG src={smartInvestingSVG} style={{display: 'flex', justifyContent:'end'} }/>
+            <ReactSVG src={smartInvestingSVG} style={{ display: "flex", justifyContent: "end" }} />
             <div className={styles.detail}>
               <h4>Smart Investing</h4>
               <p>
@@ -68,30 +68,6 @@ function ElevateFinances() {
           </div>
         </section>
       </div>
-
-      {/* container for mobile design*/}
-      {/* <div className={styles.containerMobile}>
-        <section className={styles.section1}>
-          <ReactSVG src={seamlessSVG} className={styles.seamless} />
-          <ReactSVG src={smartInvestingSVG} className={styles.smartInvestingSVG} />
-        </section>
-        <section className={styles.section2}>
-          <ReactSVG src={wealth} className={styles.wealth} />
-          <ReactSVG src={financialPlanning} className={styles.financialPlanning} />
-        </section>
-      </div> */}
-
-      {/* container for desktop design */}
-      {/* <div className={styles.containerDesktop}>
-        <section className={styles.section1}>
-          <ReactSVG src={seamlessSVGLg} />
-          <ReactSVG src={smartInvestingSVGLg} />
-        </section>
-        <section className={styles.section2}>
-          <ReactSVG src={wealthLg} />
-          <ReactSVG src={financialPlanningLg} />
-        </section>
-      </div> */}
     </div>
   );
 }

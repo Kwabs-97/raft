@@ -80,9 +80,8 @@ p {
   margin: 1.5rem;
 }
 
-.elevateFinancesContainer .smart .smartInvestingsExc svg{
-align-self: flex-end;
-
+.elevateFinancesContainer .smart .smartInvestingsExc svg {
+  align-self: flex-end;
 }
 
 .elevateFinancesContainer .detail {
@@ -91,11 +90,17 @@ align-self: flex-end;
 
 @media (min-width: 1024px) {
   .elevateFinancesContainer {
-    flex-direction: row;
+    display: grid;
+    grid-template-rows: auto auto;
   }
 
-  .elevateFinancesContainer .smart,
-  .elevateFinancesContainer .finances {
-    flex-direction: row;
+  .elevateFinancesContainer .finances, .elevateFinancesContainer .smart {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  p,
+  h4 {
+    text-align: left;
   }
 }
